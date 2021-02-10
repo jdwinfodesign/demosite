@@ -50,13 +50,13 @@ layout: default
           
           {% if page.previous %}
           <span class="previous-link">
-            <a rel="prev" href="{{ page.previous.url }}">Previous article</a>
+            <a rel="prev" href="{{ page.previous.url | relative_url }}">Previous article</a>
           </span>
           {% endif %}
           
           {% if page.next %}
           <span class="next-link pull-right">
-            <a rel="next" href="{{ page.next.url }}">Next article</a>
+            <a rel="next" href="{{ page.next.url | relative_url }}">Next article</a>
           </span>
           {% endif %}
           
@@ -75,7 +75,7 @@ layout: default
               <div class="col-lg-6">
                 <ul class="list-unstyled">
                 {% for post in site.categories[category_name] limit: 5%}
-                  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
                   {% endfor %}
                 </ul>
               </div>
@@ -85,10 +85,10 @@ layout: default
           </div>
           
           <!-- Side Widget Well -->
-          <div class="well">
+          <!-- <div class="well">
             <h4>Side Widget Well</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
-          </div>
+          </div> -->
           
         </div>
         
