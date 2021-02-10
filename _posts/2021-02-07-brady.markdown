@@ -1,0 +1,9 @@
+---
+layout: post
+title: Brady deserves his success
+date: 2021-02-07 22:00
+author: Tom Brady Sr.
+image: http://placehold.it/900x300
+category: jekyll
+---
+His fitness and nutrition regime are amazing. He truly deserves his success, just based on the quality of his efforts.
