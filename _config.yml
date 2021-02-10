@@ -21,7 +21,7 @@
 title: Great web agency
 email: mergatroid@protonmail.com
 description: "Great web agency offers high impact yet affordable web development services. From web esign to targeted SEO to custom web applications."
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "demosite" # the subpath of your site, e.g. /blog
 url: "https://jdwinfodesign.github.io/demosite/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
